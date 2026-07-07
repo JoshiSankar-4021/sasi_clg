@@ -4,7 +4,8 @@ import {Routes,Route} from 'react-router-dom'
 import Navtag from "./Navtag"
 import Linktag from "./Linktag"
 import Buttonnav from "./Buttonnav";
-import SideNav from "./nav/Sidenav"
+import SideNav from "./nav/Sidenav";
+import Forms from "./forms/Forms"
 function App(){
   return(
    <>
@@ -15,6 +16,7 @@ function App(){
       <Route path="/navtag" element={<Navtag/>}/>
       <Route path="/linktag" element={<Linktag/>}/>
       <Route path="/" element={<Buttonnav/>}/>
+      <Route path="/forms" element={<Forms/>}/>
     </Routes>
    </>
   )

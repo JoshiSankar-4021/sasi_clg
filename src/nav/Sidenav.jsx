@@ -4,27 +4,29 @@ function Sidenav(){
     return(
         <div className="sidenavdiv">
             <div className="Navlinkdiv">
-                <NavLink to="/linktag" class="sidenavlink">Link tag</NavLink><br/>
+                <NavLink to="/linktag" className="sidenavlink">Link tag</NavLink>
             </div>
             <div className="Navlinkdiv">
-                <NavLink to="/navtag" className="sidenavlink">Nav Tag</NavLink><br/>
-            </div>
-            
-            <div className="Navlinkdiv">
-                <NavLink to="/counter" className="sidenavlink">Counter</NavLink><br/>
+                <NavLink to="/navtag" className="sidenavlink">Nav Tag</NavLink>
             </div>
             
             <div className="Navlinkdiv">
-                <NavLink to="/media" className="sidenavlink">Media</NavLink><br/>
+                <NavLink to="/counter" className="sidenavlink">Counter</NavLink>
             </div>
             
             <div className="Navlinkdiv">
-                <NavLink to="/" className="sidenavlink">Button Nav</NavLink><br/>
+                <NavLink to="/media" className="sidenavlink">Media</NavLink>
             </div>
             
-            
+            <div className="Navlinkdiv">
+                <NavLink to="/" className="sidenavlink">Button Nav</NavLink>
+            </div>
 
-
+            <div className="Navlinkdiv">
+                <NavLink to="/forms" className="sidenavlink">Forms</NavLink>
+            </div>
+            
+        
         </div>
     )
 }

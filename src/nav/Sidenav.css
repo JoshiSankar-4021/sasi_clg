@@ -1,11 +1,16 @@
 .sidenavdiv{
-
+    text-align: left;
+    border: 2px solid rgb(245, 241, 241);
+    height: 300px;
+    width:300px;
 }
 
 .Navlinkdiv{
-
+    border: 2px solid rgb(245, 241, 241);
+    margin:10px;
 }
 
 .sidenavlink{
-    
+    text-decoration: none;
+    color:white;
 }
